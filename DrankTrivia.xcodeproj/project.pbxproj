@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF04111C24535DBC008E284D /* TopografieVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04111B24535DBC008E284D /* TopografieVragen.swift */; };
+		AF04111E2453650F008E284D /* RandomShitVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04111D2453650F008E284D /* RandomShitVragen.swift */; };
+		AF0411202453732C008E284D /* FilosofieVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04111F2453732C008E284D /* FilosofieVragen.swift */; };
+		AF041124245375C3008E284D /* FilmVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF041123245375C3008E284D /* FilmVragen.swift */; };
+		AF041126245376F5008E284D /* GeschiedenisVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF041125245376F5008E284D /* GeschiedenisVragen.swift */; };
+		AF0D864A248684BA0099473A /* UitlegSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D8649248684BA0099473A /* UitlegSheet.swift */; };
+		AFA6714B2459E1C50076FB74 /* EindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA6714A2459E1C50076FB74 /* EindView.swift */; };
+		AFC0CB6324531E0800082C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB6224531E0800082C2A /* AppDelegate.swift */; };
+		AFC0CB6524531E0800082C2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB6424531E0800082C2A /* SceneDelegate.swift */; };
+		AFC0CB6724531E0800082C2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB6624531E0800082C2A /* ContentView.swift */; };
+		AFC0CB6924531E0900082C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC0CB6824531E0900082C2A /* Assets.xcassets */; };
+		AFC0CB6C24531E0900082C2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC0CB6B24531E0900082C2A /* Preview Assets.xcassets */; };
+		AFC0CB6F24531E0900082C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC0CB6D24531E0900082C2A /* LaunchScreen.storyboard */; };
+		AFC0CB7924531E5500082C2A /* TitelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB7824531E5500082C2A /* TitelView.swift */; };
+		AFC0CB7B24531EC900082C2A /* Speler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB7A24531EC900082C2A /* Speler.swift */; };
+		AFC0CB7D24531EE500082C2A /* Vraag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB7C24531EE500082C2A /* Vraag.swift */; };
+		AFC0CB7F2453222D00082C2A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB7E2453222D00082C2A /* ViewModel.swift */; };
+		AFC0CB81245339CE00082C2A /* TussenstandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB80245339CE00082C2A /* TussenstandView.swift */; };
+		AFC0CB832453496500082C2A /* VraagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB822453496500082C2A /* VraagView.swift */; };
+		AFC0CB8624534E7D00082C2A /* MuziekVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB8524534E7D00082C2A /* MuziekVragen.swift */; };
+		AFC0CB882453507800082C2A /* SportVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB872453507800082C2A /* SportVragen.swift */; };
+		AFC0CB8A245350A900082C2A /* DrankVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB89245350A900082C2A /* DrankVragen.swift */; };
+		AFC0CB8C245350C700082C2A /* LiteratuurVragen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC0CB8B245350C700082C2A /* LiteratuurVragen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF04111B24535DBC008E284D /* TopografieVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopografieVragen.swift; sourceTree = "<group>"; };
+		AF04111D2453650F008E284D /* RandomShitVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomShitVragen.swift; sourceTree = "<group>"; };
+		AF04111F2453732C008E284D /* FilosofieVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilosofieVragen.swift; sourceTree = "<group>"; };
+		AF041123245375C3008E284D /* FilmVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmVragen.swift; sourceTree = "<group>"; };
+		AF041125245376F5008E284D /* GeschiedenisVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeschiedenisVragen.swift; sourceTree = "<group>"; };
+		AF0D8649248684BA0099473A /* UitlegSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UitlegSheet.swift; sourceTree = "<group>"; };
+		AFA6714A2459E1C50076FB74 /* EindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EindView.swift; sourceTree = "<group>"; };
+		AFC0CB5F24531E0800082C2A /* Beetje Dom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beetje Dom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC0CB6224531E0800082C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFC0CB6424531E0800082C2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFC0CB6624531E0800082C2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFC0CB6824531E0900082C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC0CB6B24531E0900082C2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFC0CB6E24531E0900082C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC0CB7024531E0900082C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC0CB7824531E5500082C2A /* TitelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitelView.swift; sourceTree = "<group>"; };
+		AFC0CB7A24531EC900082C2A /* Speler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speler.swift; sourceTree = "<group>"; };
+		AFC0CB7C24531EE500082C2A /* Vraag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vraag.swift; sourceTree = "<group>"; };
+		AFC0CB7E2453222D00082C2A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AFC0CB80245339CE00082C2A /* TussenstandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TussenstandView.swift; sourceTree = "<group>"; };
+		AFC0CB822453496500082C2A /* VraagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VraagView.swift; sourceTree = "<group>"; };
+		AFC0CB8524534E7D00082C2A /* MuziekVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuziekVragen.swift; sourceTree = "<group>"; };
+		AFC0CB872453507800082C2A /* SportVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportVragen.swift; sourceTree = "<group>"; };
+		AFC0CB89245350A900082C2A /* DrankVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrankVragen.swift; sourceTree = "<group>"; };
+		AFC0CB8B245350C700082C2A /* LiteratuurVragen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteratuurVragen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC0CB5C24531E0800082C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC0CB5624531E0800082C2A = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB6124531E0800082C2A /* DrankTrivia */,
+				AFC0CB6024531E0800082C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC0CB6024531E0800082C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB5F24531E0800082C2A /* Beetje Dom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC0CB6124531E0800082C2A /* DrankTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB7724531E3000082C2A /* Model */,
+				AFC0CB7624531E2800082C2A /* View */,
+				AFC0CB6224531E0800082C2A /* AppDelegate.swift */,
+				AFC0CB6424531E0800082C2A /* SceneDelegate.swift */,
+				AFC0CB7E2453222D00082C2A /* ViewModel.swift */,
+				AFC0CB6824531E0900082C2A /* Assets.xcassets */,
+				AFC0CB6D24531E0900082C2A /* LaunchScreen.storyboard */,
+				AFC0CB7024531E0900082C2A /* Info.plist */,
+				AFC0CB6A24531E0900082C2A /* Preview Content */,
+			);
+			path = DrankTrivia;
+			sourceTree = "<group>";
+		};
+		AFC0CB6A24531E0900082C2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB6B24531E0900082C2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFC0CB7624531E2800082C2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB6624531E0800082C2A /* ContentView.swift */,
+				AFC0CB7824531E5500082C2A /* TitelView.swift */,
+				AFC0CB80245339CE00082C2A /* TussenstandView.swift */,
+				AFC0CB822453496500082C2A /* VraagView.swift */,
+				AFA6714A2459E1C50076FB74 /* EindView.swift */,
+				AF0D8649248684BA0099473A /* UitlegSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AFC0CB7724531E3000082C2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB8424534E6A00082C2A /* Alle Vragen */,
+				AFC0CB7A24531EC900082C2A /* Speler.swift */,
+				AFC0CB7C24531EE500082C2A /* Vraag.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AFC0CB8424534E6A00082C2A /* Alle Vragen */ = {
+			isa = PBXGroup;
+			children = (
+				AFC0CB8524534E7D00082C2A /* MuziekVragen.swift */,
+				AFC0CB872453507800082C2A /* SportVragen.swift */,
+				AFC0CB89245350A900082C2A /* DrankVragen.swift */,
+				AFC0CB8B245350C700082C2A /* LiteratuurVragen.swift */,
+				AF04111B24535DBC008E284D /* TopografieVragen.swift */,
+				AF04111D2453650F008E284D /* RandomShitVragen.swift */,
+				AF04111F2453732C008E284D /* FilosofieVragen.swift */,
+				AF041123245375C3008E284D /* FilmVragen.swift */,
+				AF041125245376F5008E284D /* GeschiedenisVragen.swift */,
+			);
+			path = "Alle Vragen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC0CB5E24531E0800082C2A /* DrankTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC0CB7324531E0900082C2A /* Build configuration list for PBXNativeTarget "DrankTrivia" */;
+			buildPhases = (
+				AFC0CB5B24531E0800082C2A /* Sources */,
+				AFC0CB5C24531E0800082C2A /* Frameworks */,
+				AFC0CB5D24531E0800082C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrankTrivia;
+			productName = DrankTrivia;
+			productReference = AFC0CB5F24531E0800082C2A /* Beetje Dom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC0CB5724531E0800082C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Casper Daris";
+				TargetAttributes = {
+					AFC0CB5E24531E0800082C2A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AFC0CB5A24531E0800082C2A /* Build configuration list for PBXProject "DrankTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC0CB5624531E0800082C2A;
+			productRefGroup = AFC0CB6024531E0800082C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC0CB5E24531E0800082C2A /* DrankTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC0CB5D24531E0800082C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC0CB6F24531E0900082C2A /* LaunchScreen.storyboard in Resources */,
+				AFC0CB6C24531E0900082C2A /* Preview Assets.xcassets in Resources */,
+				AFC0CB6924531E0900082C2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC0CB5B24531E0800082C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC0CB6324531E0800082C2A /* AppDelegate.swift in Sources */,
+				AFC0CB8624534E7D00082C2A /* MuziekVragen.swift in Sources */,
+				AF04111C24535DBC008E284D /* TopografieVragen.swift in Sources */,
+				AF0411202453732C008E284D /* FilosofieVragen.swift in Sources */,
+				AFC0CB6524531E0800082C2A /* SceneDelegate.swift in Sources */,
+				AFC0CB7B24531EC900082C2A /* Speler.swift in Sources */,
+				AFA6714B2459E1C50076FB74 /* EindView.swift in Sources */,
+				AFC0CB7D24531EE500082C2A /* Vraag.swift in Sources */,
+				AFC0CB8C245350C700082C2A /* LiteratuurVragen.swift in Sources */,
+				AF041124245375C3008E284D /* FilmVragen.swift in Sources */,
+				AFC0CB6724531E0800082C2A /* ContentView.swift in Sources */,
+				AF0D864A248684BA0099473A /* UitlegSheet.swift in Sources */,
+				AFC0CB7924531E5500082C2A /* TitelView.swift in Sources */,
+				AFC0CB8A245350A900082C2A /* DrankVragen.swift in Sources */,
+				AFC0CB7F2453222D00082C2A /* ViewModel.swift in Sources */,
+				AFC0CB832453496500082C2A /* VraagView.swift in Sources */,
+				AFC0CB81245339CE00082C2A /* TussenstandView.swift in Sources */,
+				AF041126245376F5008E284D /* GeschiedenisVragen.swift in Sources */,
+				AFC0CB882453507800082C2A /* SportVragen.swift in Sources */,
+				AF04111E2453650F008E284D /* RandomShitVragen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFC0CB6D24531E0900082C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFC0CB6E24531E0900082C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFC0CB7124531E0900082C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC0CB7224531E0900082C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC0CB7424531E0900082C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DrankTrivia/Preview Content\"";
+				DEVELOPMENT_TEAM = UFFYTBE3CU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DrankTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = casperdaris.DrankTrivia;
+				PRODUCT_NAME = "Beetje Dom";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC0CB7524531E0900082C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DrankTrivia/Preview Content\"";
+				DEVELOPMENT_TEAM = UFFYTBE3CU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DrankTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = casperdaris.DrankTrivia;
+				PRODUCT_NAME = "Beetje Dom";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC0CB5A24531E0800082C2A /* Build configuration list for PBXProject "DrankTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC0CB7124531E0900082C2A /* Debug */,
+				AFC0CB7224531E0900082C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC0CB7324531E0900082C2A /* Build configuration list for PBXNativeTarget "DrankTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC0CB7424531E0900082C2A /* Debug */,
+				AFC0CB7524531E0900082C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC0CB5724531E0800082C2A /* Project object */;
+}
